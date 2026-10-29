@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Bueno</title>
+    <link rel="stylesheet" href="css.css"></link>
+</head>
+<body>
+
+    <header>
+        <h1>Ultimo programa que hicimos (Modificado)</h1>
+    </header>
+    
+    <div>
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" type="text" placeholder="Nombre"></input>
+    
+    <label for="telefono" id="labelTel">Telefono:</label>
+    <input id="telefono" type="text" placeholder="Telefono"></input>
+    </div>
+
+    <button id="agregarInicio" onclick="agregarElemento(true)">Agregar al inicio</button>
+    <button id="agregarFinal" onclick="agregarElemento(false)">Agregar al final</button>
+
+    
+    <p id="impresion"></p>
+
+    
+    <script src="js.js"></script>
+</body>
+</html>

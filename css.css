@@ -1,0 +1,48 @@
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfCObcVJUwZZVqJRJszqFJaFwhUHM_jVv6qbYZU9lYSQ&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
+}
+
+#nombre{
+    margin-right: 5%;
+}
+#labelTel{
+    margin-left: 5%;
+}
+
+button{
+    margin-top: 90px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 35%;
+}
+
+#agregarInicio{
+    margin-right: 10%;
+}
+
+#agregarFinal{
+    margin-left: 10%;
+}
+
+#impresion{
+    margin-top: 90px;
+    font-size: 30px;
+}
